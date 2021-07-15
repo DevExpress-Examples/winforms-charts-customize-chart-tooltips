@@ -18,7 +18,7 @@ The following example consists of tree series with the specified tooltip pattern
 
 *  `unboundSeries` - a simple unbound series.
 
-   Shows tooltips with the following pattern:
+   The series shows tooltips with the following pattern:
 
     `Line Series: {A}:{V}`
 
@@ -26,7 +26,7 @@ The following example consists of tree series with the specified tooltip pattern
 
 * `unboundSeriesWithTag` - an unbound series with the specified [SeriesPoint.Tag](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesPoint.Tag) property for each data point.
 
-    Shows tooltips with the pattern that references the `Tag` values:
+    The series shows tooltips with the pattern that references the `Tag` values:
 
     `{A}: {V} ({Test})`
 
@@ -34,7 +34,7 @@ The following example consists of tree series with the specified tooltip pattern
 
 * `boundSeries` - a series that is bound to the data source.
 
-    Shows tooltips with the pattern that references the data source field values:
+    The series shows tooltips with the pattern that references the data source field values:
 
     `{A}: {V} ({Comment})`
 
@@ -42,7 +42,8 @@ The following example consists of tree series with the specified tooltip pattern
 
 ## Documentation 
 
-[Tooltip](https://docs.devexpress.com/WindowsForms/11977/controls-and-libraries/chart-control/end-user-features/tooltip-and-crosshair-cursor/tooltip)
+* [Chart Series](https://docs.devexpress.com/WindowsForms/6167/controls-and-libraries/chart-control/series?p=netframework)
+* [Series Tooltip](https://docs.devexpress.com/WindowsForms/11977/controls-and-libraries/chart-control/end-user-features/tooltip-and-crosshair-cursor/tooltip)
 
 
 
