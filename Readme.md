@@ -21,14 +21,14 @@ The following example consists of tree series with the specified tooltip pattern
 
     `Line Series: {A}:{V}`
 
-    ![unbound series](Images/unboundseries.png)
+    ![unbound series](images/unboundseries.png)
 
 * unboundSeriesWithTag - an unbound series with the specified [SeriesPoint.Tag](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesPoint.Tag) property for each data point.
     Shows tooltips with the pattern that references the `Tag` values:
 
     `{A}: {V} ({Test})`
 
-    ![unbound series with tag](Images/unboundseries-with-tag.png)
+    ![unbound series with tag](images/unboundseries-with-tag.png)
 
 * boundSeries - a series that is bound to the data source.
 
@@ -36,7 +36,7 @@ The following example consists of tree series with the specified tooltip pattern
 
     `{A}: {V} ({Comment})`
 
-    ![bound series](Images/boundseries.png)
+    ![bound series](images/boundseries.png)
 
 ## Documentation 
 
