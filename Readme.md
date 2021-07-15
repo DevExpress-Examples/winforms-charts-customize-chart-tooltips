@@ -42,8 +42,8 @@ The following example consists of tree series with the specified tooltip pattern
 
 ## Documentation 
 
-* [Chart Series](https://docs.devexpress.com/WindowsForms/6167/controls-and-libraries/chart-control/series?p=netframework)
-* [Series Tooltip](https://docs.devexpress.com/WindowsForms/11977/controls-and-libraries/chart-control/end-user-features/tooltip-and-crosshair-cursor/tooltip)
+* [Charts - Series](https://docs.devexpress.com/WindowsForms/6167/controls-and-libraries/chart-control/series?p=netframework)
+* [Charts - Tooltip](https://docs.devexpress.com/WindowsForms/11977/controls-and-libraries/chart-control/end-user-features/tooltip-and-crosshair-cursor/tooltip)
 
 
 
