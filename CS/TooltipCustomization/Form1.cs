@@ -6,28 +6,23 @@ using System.Collections.Generic;
 using System.Data;
 
 namespace TooltipCustomization {
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
+    public partial class Form1 : Form {
+        public Form1() {
             InitializeComponent();
         }
         // Create a data source.  
-        public class TestChartData
-        {
+        public class TestChartData {
             public string Argument { get; set; }
             public double Value { get; set; }
             public string Comment { get; set; }
-            public TestChartData(string arguments, double value, string comment)
-            {
+            public TestChartData(string arguments, double value, string comment) {
                 Argument = arguments;
                 Value = value;
                 Comment = comment;
             }
 
         }
-        private List<TestChartData> CreateChartData()
-        {
+        private List<TestChartData> CreateChartData() {
             var list = new List<TestChartData>();
             list.Add(new TestChartData("A", 4, "comment for A"));
             list.Add(new TestChartData("B", 2, "comment for B"));
@@ -39,8 +34,7 @@ namespace TooltipCustomization {
             return list;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+        private void Form1_Load(object sender, EventArgs e) {
             // Create an empty chart.
             ChartControl chartControl = new ChartControl();
 
@@ -66,7 +60,6 @@ namespace TooltipCustomization {
             unboundSeries.Points.Add(new SeriesPoint("F", new double[] { 17 }));
             unboundSeries.Points.Add(new SeriesPoint("G", new double[] { 20 }));
 
-
             Series unboundSeriesWithTag = new Series("Unbound Series with Tag", ViewType.Line);
             unboundSeriesWithTag.Points.Add(new SeriesPoint("A", 2) { Tag = new { Test = "TestValue" } });
             unboundSeriesWithTag.Points.Add(new SeriesPoint("B", 0) { Tag = new { Test = "TestValue" } });
@@ -75,7 +68,6 @@ namespace TooltipCustomization {
             unboundSeriesWithTag.Points.Add(new SeriesPoint("E", 15) { Tag = new { Test = "TestValue" } });
             unboundSeriesWithTag.Points.Add(new SeriesPoint("F", 10) { Tag = new { Test = "TestValue" } });
             unboundSeriesWithTag.Points.Add(new SeriesPoint("G", 13) { Tag = new { Test = "TestValue" } });
-
 
             // Add the series to the chart.
             chartControl.Series.AddRange(unboundSeries, unboundSeriesWithTag, boundSeries);
