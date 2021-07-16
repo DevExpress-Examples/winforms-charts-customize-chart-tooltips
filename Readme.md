@@ -14,7 +14,7 @@ Specify the tooltip display text in the [ToolTipPointPattern](https://docs.devex
 
 ## Example Structure
 
-The following example consists of tree series with the specified tooltip patterns:
+The following example shows tree series with different tooltip patterns:
 
 *  `unboundSeries` - a simple unbound series.
 
@@ -26,7 +26,7 @@ The following example consists of tree series with the specified tooltip pattern
 
 * `unboundSeriesWithTag` - an unbound series with the specified [SeriesPoint.Tag](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesPoint.Tag) property for each data point.
 
-    The series shows tooltips with the pattern that references the `Tag` values:
+    The series shows tooltips with the pattern that references `Tag` values:
 
     `{A}: {V} ({Test})`
 
@@ -34,7 +34,7 @@ The following example consists of tree series with the specified tooltip pattern
 
 * `boundSeries` - a series that is bound to the data source.
 
-    The series shows tooltips with the pattern that references the data source field values:
+    The series shows tooltips with the pattern that references data source field values:
 
     `{A}: {V} ({Comment})`
 
