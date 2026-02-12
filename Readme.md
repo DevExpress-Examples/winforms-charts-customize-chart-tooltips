@@ -49,7 +49,7 @@ The following example shows tree series with different tooltip patterns:
 * [How to show series labels for hot-tracked points](https://github.com/DevExpress-Examples/how-to-show-series-labels-for-hot-tracked-points-e2483)
 * [How to accompany a chart, its pane or series point by text or image annotations](https://github.com/DevExpress-Examples/how-to-accompany-a-chart-its-pane-or-series-point-by-text-or-image-annotations-e2188)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-charts-customize-chart-tooltips&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-charts-customize-chart-tooltips&~~~was_helpful=no)
 
